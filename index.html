@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="content">
+        <div class="clock">
+          <div class="clock-line first"></div>
+          <div class="clock-line second"></div>
+          <div class="clock-line third"></div>
+          <div class="clock-line forth"></div>
+          <div class="clock-line fifth"></div>
+          <div class="clock-line sixth"></div>
+          <div class="center"></div>
+        </div>
+    </div>
+
+    <div class="counting">
+        <span id="minutes">00</span> :
+        <span id="seconds">00</span> :
+        <span id="milliseconds">00</span>
+    </div>
+
+    <div class="clock-btn">
+        <button>reset</button>
+        <button onclick="playBtn()" class="clock-btn-center">play</button>
+        <button>pause</button>
+    </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
