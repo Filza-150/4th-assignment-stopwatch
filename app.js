@@ -39,13 +39,13 @@ function startCount() {
 
         milliseconds++;
 
-        // 100 milliseconds units complete
+        
         if (milliseconds === 100) {
             milliseconds = 0;
             seconds++;
         }
 
-        // 60 seconds complete
+       
         if (seconds === 60) {
             seconds = 0;
             minutes++;
@@ -56,7 +56,7 @@ function startCount() {
     }, 10);
 }
 
-// Pause button
+// ========================Pause button
 function pauseCount() {
 
     clearInterval(timer);
@@ -64,7 +64,7 @@ function pauseCount() {
 
 }
 
-// Reset button
+// -----------------------Reset button
 function resetCount() {
 
     clearInterval(timer);
