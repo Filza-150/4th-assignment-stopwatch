@@ -21,9 +21,10 @@
   width: 230px;
   aspect-ratio: 1;
   border-radius: 50%;
-  /* background-color: aliceblue; */
+  /* background-color: rgb(47, 113, 172); */
   position: relative;
   overflow: hidden;
+  
 }
 .clock-line {
   position: absolute;
@@ -63,6 +64,9 @@
 .center {
   width: 250px;
   height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* background-color: black; */
    background: radial-gradient(
         circle,
@@ -79,6 +83,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.center-neddle{
+  width: 20px;
+  background-color: rgb(255, 94, 0);
+  position: relative;
+  left: 110px;
 }
 .counting{
     width: 100%;
@@ -101,14 +111,23 @@ span {
     gap: 40px;
 }
 .clock-btn-center {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     background-color: #01BC63;
     color: #fff;
-}
-button{
+    font-size: 20px;
+  }
+  button {
+  width: 50px;
+  height: 50px;
   border: none;
   cursor: pointer;
   background-color: #fff;
+}
+.fa-rotate-left, .pause{
+  color: #6D6D6D;
+  font-size: 20px;
+}
+.pause{
+  font-weight: 900;
+
 }

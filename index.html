@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,10 @@
           <div class="clock-line forth"></div>
           <div class="clock-line fifth"></div>
           <div class="clock-line sixth"></div>
-          <div class="center"></div>
+          <div class="center">
+              <div class="center-neddle">111</div>
+        </div>
+          
         </div>
     </div>
 
@@ -27,9 +31,9 @@
     </div>
 
     <div class="clock-btn">
-        <button onclick="resetCount()">reset</button>
-        <button class="clock-btn-center" onclick="startCount()">play</button>
-        <button onclick="pauseCount()">pause</button>
+        <button onclick="resetCount()"><i class="fa-solid fa-rotate-left"></i></button>
+        <button class="clock-btn-center" onclick="startCount()"><i class="fa-solid fa-play"></i></button>
+        <button onclick="pauseCount()" class="pause">||</button>
     </div>
 
  
