@@ -32,7 +32,7 @@
   height: 100%;
   border-radius: 3px;
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid #C6C6C6;
   /* background-color: rgb(255, 217, 0); */
   left: 50%;
   top: 0;
@@ -87,6 +87,10 @@
     display: flex;
     justify-content: center;
 }
+span {
+  color: #38C280;
+  font-size: 40px;
+}
 .clock-btn{
     width: 100%;
     height: 17vh;
@@ -100,6 +104,11 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: none;
-    cursor: pointer;
+    background-color: #01BC63;
+    color: #fff;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
 }
